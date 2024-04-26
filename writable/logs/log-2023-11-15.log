@@ -1,0 +1,39 @@
+CRITICAL - 2023-11-15 09:41:35 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Produk.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('produk/form', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('produk/form')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('produk/form')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Afifah_0803\\cart_online_0803\\public\\index.php')
+CRITICAL - 2023-11-15 09:42:23 --> Invalid file: "produk/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk/form.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produk/form', [], true)
+ 3 APPPATH\Controllers\Produk.php(43): view('produk/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Afifah_0803\\cart_online_0803\\public\\index.php')
+CRITICAL - 2023-11-15 09:44:02 --> Invalid file: "produk/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk/form.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produk/form', [], true)
+ 3 APPPATH\Controllers\Produk.php(43): view('produk/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Afifah_0803\\cart_online_0803\\public\\index.php')
+CRITICAL - 2023-11-15 09:44:07 --> Invalid file: "produk/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk/form.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('produk/form', [], true)
+ 3 APPPATH\Controllers\Produk.php(43): view('produk/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->form()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\Afifah_0803\\cart_online_0803\\public\\index.php')
